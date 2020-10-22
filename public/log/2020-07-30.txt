@@ -1,0 +1,3 @@
+2020-07-30 16:46:31|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '25' , 1 , 269 , '日照达美华侨城' , 0 , 1 , '-1' , '1' , '')
+2020-07-30 16:52:20|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '25' , 1 , 401 , '鲁商万科新项目' , 0 , 1 , '1' , '1' , '')
+2020-07-30 17:44:04|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=402,`name`='鲁商泰晤士小镇',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 304

@@ -1,0 +1,13 @@
+2020-07-03 10:41:34|38|lkjklj
+2020-07-03 10:41:45|38|lkjklj
+2020-07-03 10:42:32|38|lkjklj
+2020-07-03 10:43:15|38|lkjklj
+2020-07-03 10:44:21|38|lkjklj
+2020-07-03 10:44:52|2,孟祥,36,38,项目经理,|lkjklj
+2020-07-03 10:55:07|1,admin,21,1,总管理员,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '19' , 1 , 1 , '1111' , 111111 , 1 , '1' , '1' , '')
+2020-07-03 10:55:31|1,admin,21,1,总管理员,|DELETE FROM `shilian_project`    WHERE  (  id=377 )
+2020-07-03 14:06:27|2,曲萌萌,36,98,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 1706
+2020-07-03 16:16:15|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '25' , 1 , 393 , '日照慧泽园' , 0 , 1 , '-1' , '1' , '')
+2020-07-03 16:18:27|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='26',`user_id`=0,`manager`=393,`name`='日照慧泽园',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 378
+2020-07-03 17:53:13|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '21' , 1 , 51 , '章丘山能映绣江南' , 0 , 1 , '-1' , '1' , '')
+2020-07-03 17:53:54|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '20' , 1 , 49 , '济南水发信息小镇' , 0 , 1 , '-1' , '1' , '')

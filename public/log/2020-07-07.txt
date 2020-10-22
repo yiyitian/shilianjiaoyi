@@ -1,0 +1,5 @@
+2020-07-07 11:20:17|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='20',`user_id`=0,`manager`=49,`name`='济南水发信息小镇',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 380
+2020-07-07 11:22:33|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=347,`name`='鸿锦凤凰新城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 356
+2020-07-07 11:23:22|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=347,`name`='青岛鸿锦凤凰新城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 356
+2020-07-07 11:25:52|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=347,`name`='鸿锦凤凰新城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 356
+2020-07-07 11:31:34|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=347,`name`='鸿锦凤凰新城-鸿锦凤凰新城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 356

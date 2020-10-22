@@ -1,0 +1,1 @@
+2020-08-21 13:50:40|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='25',`user_id`=0,`manager`=124,`name`='临沂鲁商金悦城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 151

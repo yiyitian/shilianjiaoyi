@@ -1,0 +1,5 @@
+2020-08-11 09:16:13|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=245,`name`='文登伴山林语',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 124
+2020-08-11 09:16:31|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=241,`name`='青岛佳兆业悦峰',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 315
+2020-08-11 09:17:47|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=271,`name`='济南恒大龙奥御苑',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 143
+2020-08-11 09:35:55|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=414,`name`='青岛万科城市之光',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 320
+2020-08-11 09:40:00|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=426,`name`='青岛海岸万科城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 309

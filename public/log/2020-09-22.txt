@@ -1,0 +1,6 @@
+2020-09-22 09:28:12|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_users`  SET `department`='68'  WHERE  `projectname` = '241'
+2020-09-22 09:29:14|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_users`  SET `department`='68'  WHERE  `projectname` = '132'
+2020-09-22 10:17:10|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_users`  SET `department`='65'  WHERE  `projectname` = '229'
+2020-09-22 10:29:38|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_users`  SET `department`='20'  WHERE  `projectname` = '404'
+2020-09-22 10:50:01|1,admin,21,1,总管理员,,/api.php|UPDATE `shilian_users`  SET `department`='65'  WHERE  `projectname` = '327'
+2020-09-22 11:23:11|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_users`  SET `department`='69'  WHERE  `projectname` = '333'

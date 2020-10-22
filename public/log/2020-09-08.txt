@@ -1,0 +1,2 @@
+2020-09-08 17:47:59|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '22' , 1 , 85 , '潍坊恒信城市之光' , 0 , 1 , '-1' , '1' , '1' , '')
+2020-09-08 17:49:00|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '22' , 1 , 72 , '潍坊中冶潍坊公馆' , 0 , 1 , '-1' , '1' , '1' , '')

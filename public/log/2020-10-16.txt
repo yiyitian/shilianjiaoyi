@@ -1,0 +1,1 @@
+2020-10-16 15:25:10|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '19' , 1 , 13 , '济南世茂·时代先声' , 0 , 2 , '-1' , '1' , '1' , '')

@@ -1,0 +1,14 @@
+2020-09-02 09:37:27|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='61',`user_id`=0,`manager`=277,`name`='中铁青岛世博城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 109
+2020-09-02 10:51:14|2,石猛,36,110,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2491
+2020-09-02 11:26:45|2,石猛,36,110,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2491
+2020-09-02 13:50:08|2,曲萌萌,36,98,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2343
+2020-09-02 14:43:59|2,李彦伟,36,146,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2490
+2020-09-02 16:31:59|2,张洪旺,36,49,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2506
+2020-09-02 16:34:33|2,张洪旺,36,49,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2769
+2020-09-02 18:19:32|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2502
+2020-09-02 18:19:53|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2502
+2020-09-02 18:19:57|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2502
+2020-09-02 18:20:02|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2502
+2020-09-02 18:20:08|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2502
+2020-09-02 18:21:01|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2765
+2020-09-02 18:21:06|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2765

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>编辑</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/layuicms/layui/css/layui.css" media="all" />
+	 <link rel="stylesheet" type="text/css" href="/webuploader/webuploader.css">
+    <script type="text/javascript" src="/webuploader/webuploader.js"></script>
+	<style>
+	.layui-upload-file{ width:10px;}
+	.progress-bar{ background-color:red}
+	</style>
+</head>
+<body class="childrenBody">
+	<form class="layui-form" method='post'>
+	    <div class="layui-form-item">
+		<label class="layui-form-label">标题</label>
+		<div class="layui-input-block">
+		
+		{$lbs->text('title',' lay-verify="required" class="layui-input" placeholder="文章标题"')}
+		</div>
+		</div>
+		<div class="layui-form-item">
+		<label class="layui-form-label">分类</label>
+		<div class="layui-input-block">
+		
+		{$lbs->select($lb_opts,'tag',' required="required" ','',false)}
+		</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">列表展示图</label>
+			<div class="layui-input-block">
+				
+				<input type="file" name="file" lay-ext="jpg|png|gif" class="layui-upload-file"> 
+				<img src='{$lbs->pic}' id='imgbizlogo' style="width:60px;height:60px;{if $lbs->pic ==''} display:none{/if}" >
+				{$lbs->hidden('pic')} 640px*320px
+			</div>
+		</div>
+		
+		
+        
+			<div class="layui-form-item">
+			<label class="layui-form-label">视频上传</label>
+			<div class="layui-input-block">
+			<div id="uploader" class="wu-example">    
+			<div id="thelist" class="uploader-list"></div>
+			<div class="btns">
+			<div id="picker" >选择文件</div>
+			<button id="ctlBtn" class="layui-btn" type="button">开始上传</button>
+			</div>
+			</div>
+			</div>
+			</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">视频链接</label>
+			<div class="layui-input-block">
+			 {$lbs->text('vode','class="layui-input"')}
+			<small></small>
+			</div>
+		</div>
+		<div class="layui-form-item">
+		<label class="layui-form-label">描述</label>
+		<div class="layui-input-block">
+		{$lbs->textarea('content','class="layui-textarea"' )}
+		
+		</div>
+		</div>
+        
+		<div class="layui-form-item">
+		<label class="layui-form-label">查看</label>
+		<div class="layui-input-block">
+		
+		{$lbs->text('look',' lay-verify="required" class="layui-input" ')}
+		</div>
+		</div>
+		
+		<div class="layui-form-item">
+			<label class="layui-form-label">排序</label>
+			<div class="layui-input-block">
+			 {$lbs->text('sorts','class="layui-input"')}
+			<small>越小越靠前</small>
+			</div>
+		</div>
+	
+			
+
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<button class="layui-btn" type='submit' lay-submit="" lay-filter="addNews">立即提交</button>
+				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		    </div>
+		</div>
+	</form>
+<script type="text/javascript" src="/layuicms/layui/layui.js?"></script>
+<script>
+layui.use('form', function(){
+  var form = layui.form;
+  form.render('select'); 
+  //各种基于事件的操作，下面会有进一步介绍
+});
+
+
+
+
+layui.use('upload', function(){
+  layui.upload({
+  elem:'.layui-upload-file',
+  url: '/upload.html?wid=5094'
+  ,ext: 'jpg|png|gif' //那么，就只会支持这三种格式的上传。注意是用|分割。
+  ,success: function(res,input){
+     if(res.status == 1)
+	  {
+		
+	     $("#imgbizlogo").attr('src',res.img).show(); 
+		 $("#need_zhuanlanpic").val(res.img);
+	  }
+	  else
+	  {
+	     layer.msg(res.msg); 
+	  }
+  }
+});   
+});
+
+</script>
+<script>
+$(function(){
+    var uploader = WebUploader.create({
+        
+        swf: '/webuploader/Uploader.swf',
+        
+        server: 'fileupload.html',
+        
+        pick: '#picker',
+        
+        resize: false,
+        
+        chunked: true           //是否切片
+    });
+    var $list = $('#thelist'),
+        state = 'pending';
+    
+    uploader.on( 'fileQueued', function( file ) {
+		
+        $list.html( '<div id="' + file.id + '" class="item">' +
+            '<h4 class="info">' + file.name + '</h4>' +
+            '<p class="state">已添加...</p>' +
+        '</div>' );
+    });
+ 
+    
+    uploader.on( 'uploadProgress', function( file, percentage ) {
+        var $li = $( '#'+file.id ),
+            $percent = $li.find('.progress .progress-bar');
+ 
+        
+        if ( !$percent.length ) {
+            $percent = $('<div class="progress progress-striped active">' +
+              '<div class="progress-bar" role="progressbar" style="width: 0%;height:30px;">' +
+              '</div>' +
+            '</div>').appendTo( $li ).find('.progress-bar');
+        }
+ 
+        $li.find('p.state').text('上传中');
+ 
+        $percent.css( 'width', percentage * 100 + '%' );
+    });
+ 
+    uploader.on( 'uploadSuccess', function( file,response ) {
+		state = 'pending';
+		 var path="{Conf::$http_pathnew}"+response.path;
+		 $("#need_zhuanlanvode").val(path);
+        $( '#'+file.id ).find('p.state').text('已上传');
+    });
+ 
+    uploader.on( 'uploadError', function( file ) {
+        $( '#'+file.id ).find('p.state').text('上传出错');
+    });
+ 
+    uploader.on( 'uploadComplete', function( file ) {
+        $( '#'+file.id ).find('.progress').fadeOut();
+    });
+    
+    $('#ctlBtn').on( 'click', function() {
+		
+        if ( state === 'uploading' ) {
+            uploader.stop(true);
+            state = "pending";
+        } else {
+            uploader.upload();
+            state = "uploading";
+        }
+    });
+})
+</script>
+</body>
+</html>

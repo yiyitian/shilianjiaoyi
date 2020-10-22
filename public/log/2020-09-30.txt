@@ -1,0 +1,1 @@
+2020-09-30 13:46:37|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '68' , 1 , 111 , '烟台万科天琴湾' , 0 , 1 , '1' , '1' , '-1' , '')

@@ -1,0 +1,4 @@
+2020-09-01 11:20:49|2,胡月,34,4,数据收集（胡月）,|DELETE FROM `shilian_project`    WHERE  (  id=317 )
+2020-09-01 11:27:08|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='20',`user_id`=0,`manager`=118,`name`='恒大养生谷',`aims`=0,`type`=1,`is_agent`='1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 382
+2020-09-01 14:10:53|2,李瑞丽,36,347,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2489
+2020-09-01 19:31:35|2,刘怡静,36,97,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2514

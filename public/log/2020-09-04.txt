@@ -1,0 +1,2 @@
+2020-09-04 15:43:40|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=272,`name`='青岛科技创新园',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 260
+2020-09-04 16:57:12|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=286,`name`='潍坊恒大滨河左岸',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 314

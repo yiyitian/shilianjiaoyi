@@ -1,0 +1,1 @@
+2020-08-10 14:40:41|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=1,`manager`=194,`name`='潍坊鲁发公园道1号',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 62

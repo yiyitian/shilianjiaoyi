@@ -1,0 +1,1 @@
+2020-08-17 16:33:28|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=428,`name`='泰安恒大翡翠华庭',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 118

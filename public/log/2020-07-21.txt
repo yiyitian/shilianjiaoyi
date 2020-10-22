@@ -1,0 +1,2 @@
+2020-07-21 13:50:12|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='19',`user_id`=0,`manager`=396,`name`='济南济高·梧桐郡',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 375
+2020-07-21 14:04:03|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '20' , 1 , 191 , '枣庄福佑嘉园西区' , 0 , 1 , '-1' , '1' , '')

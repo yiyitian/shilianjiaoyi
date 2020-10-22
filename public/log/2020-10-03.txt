@@ -1,0 +1,2 @@
+2020-10-03 10:22:36|2,李珈宁,36,118,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2788
+2020-10-03 13:06:01|2,杨成志,36,40,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2787

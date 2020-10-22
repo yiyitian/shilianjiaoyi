@@ -1,0 +1,1 @@
+2020-09-18 10:45:29|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='69',`user_id`=0,`manager`=235,`name`='青岛科技创新园',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 260

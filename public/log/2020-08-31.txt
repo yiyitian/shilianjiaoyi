@@ -1,0 +1,5 @@
+2020-08-31 09:34:39|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '21' , 1 , 236 , '齐河东盟国际生态城' , 0 , 1 , '-1' , '1' , '1' , '')
+2020-08-31 11:49:45|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='20',`user_id`=0,`manager`=33,`name`='枣庄山能德圣风华里',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 258
+2020-08-31 13:46:43|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 1975
+2020-08-31 13:46:47|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 1975
+2020-08-31 13:46:57|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 1975

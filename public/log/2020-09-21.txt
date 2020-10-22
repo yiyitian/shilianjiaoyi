@@ -1,0 +1,3 @@
+2020-09-21 16:01:00|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='23',`user_id`=0,`manager`=102,`name`='青岛鲁骐书香世家',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 349
+2020-09-21 16:02:21|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='23',`user_id`=0,`manager`=200,`name`='青岛山东高速·西海岸中心',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 264
+2020-09-21 16:02:45|1,admin,21,1,总管理员,|UPDATE `shilian_project`  SET `framework_id`='23',`user_id`=0,`manager`=98,`name`='青岛高实景苑合苑',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 342

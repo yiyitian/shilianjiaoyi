@@ -1,0 +1,3 @@
+2020-10-05 15:07:49|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2512
+2020-10-05 15:08:01|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2512
+2020-10-05 15:08:40|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2775

@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* Style Reset */
+a:link,
+a:active,
+a:visited,
+a:hover {
+    background: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+*{ margin:0; padding:0}
+ul, ol, li, dl, dt, dd {list-style:none;}
+a{text-decoration:none;outline:0px; color:#555}
+img{ border:0;max-width: 100%;}
+.ccsl{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: block;}
+.clear {clear:both;}
+body{ width:100%;max-width:512px; margin:0 auto; background:#fff; font-size:12px; line-height:24px; color:#333; }
+input{  
+	background:none;  
+	outline:none;  
+	border:none;
+}
+input:focus{   
+	border:none;
+}
+
+.objo {
+    text-align: center;
+    padding: 10px 0;
+	font-size: 0.2rem;
+}
+.objo a {
+    width: 30%;
+    margin: 10px;
+}
+.btn button {
+    border-radius: 5px;
+    /* border: 2px solid #d0111b; */
+     border: none ; 
+     line-height: 35px;
+    	height: 35px;
+     text-align: center;
+     background: #d0111b;
+     color: #fff;
+     width: 30%;
+    	font-size: 14px;
+}
+
+/*公告*/
+.notice{width:100%;height:35px;overflow:hidden;/* background:url(../images/bg.gif) no-repeat 2%; */}
+.noticTipTxt{color:#ff7300;height:90px;line-height:30px;overflow:hidden;margin:0 0 0 5px;width:80%;float: left;}
+.noticTipTxt li{height:28px;line-height:28px;width: 100%;overflow: hidden;padding-top:2px;}
+.noticTipTxt a{color:#d0111b;font-size:14px;text-decoration:none;}
+.noticTipTxt a:hover{color:#ff7300;text-decoration:underline;}
+.notice .notice-more{width:6%;height:90px;line-height:90px;float:right;}
+.notice .notice-more a{font-family:SimSun;line-height:30px;font-size:16px;font-weight:bold;color:#999;}
+
+
+
+.headerbox{width:100%;max-width:512px; margin:0 auto; position:relative; overflow:hidden}
+.headerbox img.bg{ display:block; width:100%}
+.headerbox .topBox{ position:absolute; top:10px; width:100%; z-index:1}
+.headerbox .topBox .L{ flex:1; height:35px; line-height:35px; background:#fff; border-radius:5px;}
+.headerbox .topBox .L img{ display:block; float:left; height:25px; margin:5px;}
+.headerbox .topBox .L input{ height:35px; line-height:35px;outline:none; float:left; border:0; background:none; color:#666; width:70%;  }
+.headerbox .topBox .R{ height:35px; padding-left:10px;}
+.headerbox .topBox .R img{ display:block; height:25px; margin-top:5px;}
+
+
+
+
+.h54{ width:100%; height:54px; overflow:hidden}
+.footerBox{width:100%; max-width:512px; margin:0 auto;}
+.footerBox .footer{position:fixed;width:100%;max-width:512px;bottom:0;height:54px;z-index:999;}
+.footerBox .footer ul{ overflow:hidden; border-top:1px solid #E7E7E7;box-sizing: border-box; background:#fff}
+.footerBox .footer ul li{width:20%; height:54px; float:left; overflow:hidden}
+.footerBox .footer ul li a{ display:block; overflow:hidden}
+.footerBox .footer ul li img{height:26px;display:block; margin:0 auto; margin-top:3px}
+.footerBox .footer ul li p{ text-align:center; height:24px; line-height:24px; color:#969696;   }
+.footerBox .footer ul li.on p{ color:#d0111b} 
+
+
+.typebox{ overflow:hidden}
+.typebox ul{ overflow:hidden; padding:12px 0 5px 0}
+.typebox ul li{ float:left; width:25%;}
+.typebox ul li img{ display:block; margin:0 auto; height:45px;}
+.typebox ul li p{ text-align:center; line-height:25px; font-size:12px; /*  */}
+
+.allbox{ background:#F1F1F1; width:100%; height:10px}
+
+.courseBox{ padding:0 15px; overflow:hidden; background:#fff}
+.courseBox .titbox{ display:flex; height:50px; overflow:hidden}
+.courseBox .titbox img{ display:block; height:20px; margin:15px 0;}
+.courseBox .titbox p{ flex:1; height:50px; line-height:50px; font-size:15px; padding-left:5px; color:#333; }
+.courseBox .titbox a{font-family:SimSun;line-height:50px;font-size:16px;font-weight:bold;color:#999;padding-right: 2px;}
+
+.titbox i {
+  border: solid #666;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.titbox .go-right {
+   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.notice-more i {
+  border: solid #666;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.notice-more .go-right {
+   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.courseBox ul.ul_1{ overflow:hidden;  padding-bottom:15px}
+.courseBox ul.ul_1 li{ float:left; width:48%;}
+.courseBox ul.ul_1 li:nth-child(2n){ margin-left:4%}
+.courseBox ul.ul_1 li img{ display:block; width:100%;border-radius: 5px;}
+.courseBox ul.ul_1 li .tit{ font-size:14px;line-height:30px;overflow: hidden; height: 30px;text-align: center;}
+.courseBox ul.ul_1 .price{ color:#F34B06; height:24px;line-height:24px; font-size:14px}
+.courseBox ul.ul_1 .price span{ float:right; font-size:12px; color:#F34B06; padding-right:5px}
+.courseBox ul.ul_1 .price em{ display:block; float:left; width:65px; height:24px; line-height:24px;background:#d0111b; color:#fff; text-align:center;  font-size:12px; border-radius:15px;   ;font-style:normal}
+
+
+
+.courseBox ul.ul_2{overflow:hidden;  padding-bottom:15px}
+.courseBox ul.ul_2 li{ overflow:hidden;border-bottom:1px solid #eee; padding:15px 0}
+.courseBox ul.ul_2 li:first-child{ padding-top:0}
+.courseBox ul.ul_2 li:last-child{ border-bottom:none}
+.courseBox ul.ul_2 li .L{ float:left; width:140px;  margin-right:10px}
+.courseBox ul.ul_2 li .L img{ display:block; width:140px; border-radius: 5px;}
+.courseBox ul.ul_2 li .R{ flex:1}
+.courseBox ul.ul_2 li .R .tit{ font-size:14px; padding-top:0px;}
+.courseBox ul.ul_2 li .R .sub{ color:#bbb;}
+.courseBox ul.ul_2 li .R .pri{padding-top: 5px;font-size: 16px; color:#F34B06}
+.courseBox ul.ul_2 li .R .pri span{font-size:12px;float: right;padding-right: 5px;}
+.courseBox ul.ul_2 li .R .pri a{ display:block; float:left; width:64px; height:24px; background:#d0111b; color:#fff; text-align:center; line-height:24px; font-size:12px; border-radius:15px;   }
+
+
+.header{width:100%; max-width:512px; margin:0 auto;}
+.header .box{height:40px;position:fixed;width:100%;max-width:512px;top:0;z-index:9999;border-bottom:1px solid #eee;background:#d0111b;}
+.header .box .L{position:absolute; left:0; top:0; height:40px; padding-left:10px;}
+.header .box .L a{font-size: 20px; color: #FFFFFF;line-height: 40px;float: left;font-style: normal;font-family: SimSun;}
+.header .box .L img{ display:block;height:22px;padding-top:10px;}
+.header .box .C{width:100%; height:40px; line-height:40px; text-align:center}
+.header .box .C p{ text-align:center; font-size:16px; color:#fff;}
+.hbox{ width:100%; height:40px; overflow:hidden}
+
+.videoBox{ padding:15px 0; overflow:hidden}
+.videoBox .video_1{ padding:0 15px}
+.videoBox .video_1 img{ display:block; width:100%;}
+.videoBox .titbox{ padding:15px 15px 5px; overflow:hidden}
+.videoBox .titbox p{ font-size:15px;   color:#333;letter-spacing: 1px;}
+.videoBox .titbox span{ color:#999; font-size:12px;letter-spacing: 1px; padding-top:3px; display:block}
+.videoBox ul{ overflow:hidden; padding:10px 15px}
+.videoBox ul li{width: 100%;height: 100px;box-shadow: #eee 0px 0px 10px 2px;border-radius: 10px; margin-bottom: 10px;padding-top: 15px;overflow: hidden;}
+.videoBox ul li .L{ float:left; padding:0 15px;}
+.videoBox ul li .L .date1{ height:30px; line-height:30px;}
+.videoBox ul li .L .date1 img{ display:block; float:left; width:14px; margin-top:8px;} 
+.videoBox ul li .L .date1 p{ float:left; padding-left:5px;font-size:14px; }
+.videoBox ul li .L .date2{ font-size:16px;   color:#333; text-align:center; padding-top:8px;   ; font-weight:bold}
+.videoBox ul li .C{ float:left; padding-right:15px}
+.videoBox ul li .C img{ display:block; height:82px}
+.videoBox ul li .R{ flex:1;}
+.videoBox ul li .R .dj{position:absolute;right:20px;width:40px;}
+.videoBox ul li .R .dj img{width:100%;}
+.videoBox ul li .R .tit{ color:#333; font-size:14px; }
+.videoBox ul li .R .sub{ padding-top:5px;}
+.videoBox ul li .R .sub img{ display:block; float:left; width:35px; height:35px; border-radius:100%}
+.videoBox ul li .R .sub p{ float:left;height:35px; line-height:35px; padding-left:10px;font-size:14px;}
+.videoBox ul li .R .sub a.a1{ float:right; display:block; border:1px solid #d0111b; width:45px; height:24px; line-height:24px; text-align:center; color:#d0111b; border-radius:5px;font-size:12px;  margin-top:5px; margin-right:7px}
+.videoBox ul li .R .sub a.a2{ float:right; display:block; background:#666;border:1px solid #666; width:45px; height:24px; line-height:24px; text-align:center; color:#fff;border-radius:5px; font-size:12px;  margin-top:5px; margin-right:15px}
+
+
+
+.courseBox ul.ul_3{overflow:hidden;  padding:15px 0}
+.courseBox ul.ul_3 li{ overflow:hidden;border-bottom:1px solid #eee; padding:10px 15px}
+.courseBox ul.ul_3 li:first-child{ padding-top:0}
+.courseBox ul.ul_3 li:last-child{ border-bottom:none}
+.courseBox ul.ul_3 li .L{ float:left; width:140px; margin-right:15px}
+.courseBox ul.ul_3 li .L img{ display:block; border-radius: 5px;}
+.courseBox ul.ul_3 li .R{ flex:1}
+.courseBox ul.ul_3 li .R .tit{ font-size:14px; padding-top:5px;}
+.courseBox ul.ul_3 li .R .sub{ color:#bbb;}
+.courseBox ul.ul_3 li .R .xx{ overflow:hidden; height:30px; line-height:30px;}
+.courseBox ul.ul_3 li .R .xx span{ display:block; float:left; width:70%; height:10px; margin-top:10px; background:#E9ECF6;border-radius:10px;}
+.courseBox ul.ul_3 li .R .xx p{ float:right; font-size:12px;}
+
+/*网盘文件夹列表*/
+.courseBox ul.ul_4{overflow:hidden;  padding:15px 0}
+.courseBox ul.ul_4 li{ overflow:hidden;border-bottom:1px solid #eee; padding:10px 15%;background:url(../images/wp.png) no-repeat 3% 50%; background-size:10%;}
+.courseBox ul.ul_4 li:first-child{ padding-top:0}
+.courseBox ul.ul_4 li:last-child{ border-bottom:none}
+.courseBox ul.ul_4 li .L{ float:left; height:60px; margin-right:15px}
+.courseBox ul.ul_4 li .L img{ display:block; height:60px;}
+.courseBox ul.ul_4 li .R{ flex:1}
+.courseBox ul.ul_4 li .R .tit{ font-size:14px; padding-top:5px;}
+.courseBox ul.ul_4 li .R .sub{ color:#bbb;}
+.courseBox ul.ul_4 li .R .xx{ overflow:hidden; height:30px; line-height:30px;}
+.courseBox ul.ul_4 li .R .xx span{ display:block; float:left; width:70%; height:10px; margin-top:10px; background:#E9ECF6;border-radius:10px;}
+.courseBox ul.ul_4 li .R .xx p{ float:right; font-size:12px;}
+
+/*网盘文件列表*/
+.courseBox  .ul_5{
+	overflow: hidden;
+	padding: 15px;
+}
+.courseBox  .ul_5 li{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #f9f9f9;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.courseBox .ul_5 li .R{
+	width: 87%;
+	float: left;
+}
+.courseBox  .ul_5 li .R .tit{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	line-height: 20px;
+}
+.courseBox .ul_5 li .R .sub{
+	font-size: 12px;
+	color: #999;
+}
+.courseBox  .ul-5-img{width: 40px;float: left;}
+.courseBox  .ul-5-img img{width: 30px;height: 30px;}
+
+
+
+
+
+.subscribebox{ padding:0 15px; overflow:hidden}
+.subscribebox .item{ overflow:hidden;height:60px; display:flex; padding:10px 0; border-bottom:1px solid #eee}
+.subscribebox .item .L{ float:left; width:60px; height:60px;}
+.subscribebox .item .L img{ display:block; width:60px; height:60px; border-radius:100%}
+.subscribebox .item .C{ flex:1; padding:0 10px;}
+.subscribebox .item .C p{  font-size:14px; padding-top:5px;   color:#333}
+.subscribebox .item .C span{ color:#666; font-size:12px; }
+.subscribebox .item .R{ float:right;height:60px; line-height:60px; font-size:12px;color:#666;}
+
+
+.myHeader{ width:100%;max-width:512px; background:url(../images/mybg.jpg) no-repeat; background-size:100% 100%}
+.myHeader .my_1{ display:flex; padding:40px 0 30px; width:100%; height:90px;  color:#fff;line-height:90px;}
+.myHeader .my_1 .tx{ float:left; display:block; margin-right:10px; width:70px; height:70px; border:3px solid #fff; border-radius:100%; margin-left:20px;}
+.myHeader .my_1 span{ flex:1; display:block; font-size: 14px;line-height: 23px;padding-left:8%; }
+.myHeader .my_1 .more{ display:block; float:right; margin-right:20px; /*height:24px; margin-top:26px*/}
+
+.myHeader .my_2{ padding:0 45px 20px; overflow:hidden}
+.myHeader .my_2 a{ border:1px solid #fff; border-radius:25px; height:30px; line-height:30px; text-align:center; color:#fff;  font-size:14px; display:block; width:38%}
+.myHeader .my_2 a.L{ float:left;}
+.myHeader .my_2 a.R{ float:right;}
+
+
+.mybox_1{overflow:hidden; padding:13px 15px 0}
+.mybox_1 .box{ display:flex;box-shadow: #eee 0px 0px 10px 2px;border-radius: 10px;margin-bottom: 10px; padding:10px 0; overflow:hidden}
+.mybox_1 .box .L{ float:left; width:50px; margin-right:10px; margin-left:10px}
+.mybox_1 .box .L img{ display:block; width:50px; height:50px;}
+.mybox_1 .box .C{ flex:1}
+.mybox_1 .box .C p{ color:#333; font-size:15px}
+.mybox_1 .box .C span{  font-size:12px; color:#666; display:block}
+.mybox_1 .box .R{ float:right; padding-right:15px}
+.mybox_1 .box .R a{ display:block; border:1px solid #3F81F1; color:#3F81F1; width:65px; height:26px; line-height:26px; text-align:center;  border-radius:5px; margin-top:11px}
+
+
+.mybox_2{overflow:hidden; padding:10px 15px}
+.mybox_2 ul{ box-shadow: #eee 0px 0px 10px 2px;border-radius: 10px;margin-bottom: 10px; padding:10px 0; overflow:hidden}
+.mybox_2 ul li{ width:33.3%; float:left}
+.mybox_2 ul li p{ text-align:center;   color:#333; font-size:16px;   }
+.mybox_2 ul li span{ text-align:center; color:#666; display:block; font-size:13px;   ;}
+
+
+.mybox_3{overflow:hidden; padding:10px 15px}
+.mybox_3 ul{box-shadow: #eee 0px 0px 10px 2px;border-radius: 10px;margin-bottom: 10px; padding:10px 0; overflow:hidden}
+.mybox_3 ul li{ float:left; width:25%; padding:5px 0}
+.mybox_3 ul li img{ display:block; width:28px; margin:0 auto}
+.mybox_3 ul li p{ text-align:center;   ; line-height:26px}
+
+
+.feedbackBox{ overflow:hidden; padding:5px 15px 0}
+.feedbackBox .titbox{ font-size:14px;   ; height:35px; line-height:35px; padding-left:10px}
+.feedbackBox .sub{ padding:10px; overflow:hidden; background:#fff; border-radius:5px; height:150px;}
+.feedbackBox .sub textarea{ width:100%; height:150px; border:0; outline:none;}
+.feedbackBox .btn{ overflow:hidden; padding-top:40px}
+.feedbackBox .btn a{ background:#3F82ED; color:#fff; display:block; height:40px; line-height:40px;   ; font-size:14px; border-radius:5px; text-align:center;} 
+
+
+.chartsBox{ overflow:hidden}
+.chartsBox .charts_1{ width:170px; margin:0 auto; padding:30px 0; height:50px; line-height:50px; overflow:hidden}
+.chartsBox .charts_1 .L{ float:left;color:#666;   ;}
+.chartsBox .charts_1 .L span{ color:#4486FF; font-weight:bold; padding:0 3px; font-size:16px;}
+.chartsBox .charts_1 .R{ float:left; color:#666;   ;}
+.chartsBox .charts_1 img{ float:left; display:block; width:50px; height:50px; border-radius:100%; margin:0 5px}
+.chartsBox ul{ border-top:1px solid #eee;padding:0 15px; }
+.chartsBox ul li{ border-bottom:1px solid #eee; height:50px; line-height:50px; overflow:hidden}
+.chartsBox ul li .num{ width:42px; float:left; text-align:center; font-size:14px}
+.chartsBox ul li .num img{ display:block; height:34px; margin:8px auto;}
+.chartsBox ul li .num p{ text-align:center; font-size:14px}
+.chartsBox ul li .tx{ float:left; width:50px}
+.chartsBox ul li .tx img{ display:block; width:34px;border-radius:100%; margin:8px auto}
+.chartsBox ul li .tit{ float:left; padding-left:5px}
+.chartsBox ul li .R{ float:right; color:#666;}
+.chartsBox ul li .R span{ font-size:16px; color:#F83B32; padding-right:3px}
+
+.more i {
+  border: solid #fff;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.more .go-right {
+   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+.helpBox{ padding:18px 15px; overflow:hidden}
+.helpBox ul{ overflow:hidden}
+.helpBox ul li{ height:46px; line-height:46px; background:#fff; margin-bottom:10px}
+.helpBox ul li .icon{ float:left; display:block; height:30px; margin:8px}
+.helpBox ul li p{ float:left}
+.helpBox ul li .go{ display:block; float:right; height:18px; margin-top:14px; margin-right:10px}
+
+
+
+.setBox{  overflow:hidden}
+.setBox ul{overflow:hidden; background:#fff; padding:10px}
+.setBox ul li{height:46px; line-height:46px;border-bottom:1px solid #eee; font-size:14px;}
+.setBox ul li:last-child{ border:0}
+.setBox ul li p{ float:left;}
+.setBox ul li span{ float:right; display:block;}
+.setBox ul li span.blue{ color:#3F82ED}
+.setBox ul li img{ display:block; float:right;height:18px; margin-top:14px;}
+.setBox .btn{ overflow:hidden; height:45px; background:#fff; margin-top:25px}
+.setBox .btn a{ display:block; text-align:center;line-height:45px; height:45px;font-size:14px;   ; color:#3F82ED}
+
+
+.meansBox{ overflow:hidden}
+.meansBox ul.ul_1{ background:#fff; overflow:hidden; padding:10px 0 3px; margin-bottom:10px}
+.meansBox ul.ul_1 li{ float:left; text-align:center; width:33.3%}
+.meansBox ul.ul_1 li img{ display:block; margin:0 auto; width:50px;}
+.meansBox ul.ul_1 li p{ text-align:center; height:30px; line-height:30px; color:#666;   ;}
+.meansBox ul.ul_2{ overflow:hidden;}
+.meansBox ul.ul_2 li{ margin-bottom:2px; padding:5px; background:#fff; padding-right:10px; overflow:hidden}
+.meansBox ul.ul_2 li .L{ float:left;width:110px; height:80px; margin-right:10px}
+.meansBox ul.ul_2 li .L img{ display:block; width:110px; height:80px;}
+.meansBox ul.ul_2 li .R{ flex:1;}
+.meansBox ul.ul_2 li .R .tit{ font-size:14px;   ; line-height:1.5; color:#333;}
+.meansBox ul.ul_2 li .R .sub{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical; line-height:1.5; color:#666;   ;}
+.meansBox ul.ul_2 li .R .date{ color:#666; font-size:12px; float:right}
+.meansBox ul.ul_2 li .R .date span{ display:inline-block; background:#EC482D; color:#fff; border-radius:5px;height: 16px; width:40px; margin-left:5px;line-height: 16px;text-align: center;}
+
+
+/*个人中心*/
+.aui-flex-box p{font-size:14px;}
+.aui-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+.aui-cou-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.aui-cou-img img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: none;
+}
+.b-line {
+    position: relative;
+}
+
+.b-line:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e2e2e2;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+
+
+/*讲师详情*/
+.lecture-art{padding: 15px 0;overflow: hidden;}
+.lecture-art table{margin:0 10px;/*border-right:1px solid #ccc;border-top:1px solid #ccc;*/}
+.lecture-art table tr td{border-bottom:1px solid #ccc;border-left:1px solid #ccc;}
+.lecture-art table tr td ul li{width:100%;border-bottom:1px solid #E3E3E3;line-height:35px;height:35px;overflow:hidden;}
+.lecture-art table tr td ul li span{width:74%;overflow:hidden;display: block;float: left;}
+.lecture-art table tr td ul li em{width:25%;overflow:hidden;display: block; color:#f00; text-align:right;font-style: normal;}
+.lecture-art table tr td ul li input{width:25%;text-align:right;background:none;border:none;color:#f00;line-height:30px;}
+.lecture-art table tr td ul li:last-child{border-bottom:none;}
+.lecture-art table tr td ul li .text-area {
+    width: 96%;
+    text-align: left;
+    font-size: 12px;
+    height: 40px;
+    color: #393939;
+    outline: none;
+    border: solid 1px #CCC;
+    border-radius: 3px;
+	color:#999;
+	padding: 5px;
+}
+
+
+
+
+table{empty-cells:show;border-collapse:collapse;border-spacing:0;}
+#grid td,#grid th{padding:5px;border:#E3E3E3 1px solid;font-size:12px;height:25px;line-height:25px;}
+#grid tr td.st1{color:#ff0000}
+#grid tr td ul li{width:100%;}
+
+
+
+/*讲师管理 排序*/
+.arr {
+      width:16px;
+	  float: left;
+    }
+ 
+    .arrUp {
+      width: 0;
+      height: 0;
+      border: 7px solid transparent;
+      border-bottom-color: #ccc;
+      cursor: pointer;
+    }
+ 
+    .arrDown {
+      width: 0;
+      height: 0;
+      border: 7px solid transparent;
+      border-top-color: #ccc;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+	.arr-sc{
+		width: 40px;
+		float: left;
+		font-size: 14px;
+		text-align: center;
+	}
+	.arr-bt{
+		width: 92%;
+		padding: 5px 15px;
+		background: #f7f7f7;
+		height: 30px;
+		line-height: 30px;
+	}
+	.line{
+		width: 30px;
+		color: #ccc;
+		float: left;
+		text-align: center;
+	}
+	.arr-bt ul li{
+		width: 18%;
+		float: left;
+		text-align: center;
+		padding: 0px 60px;
+		}
+
+
+/*首页图片滚动*/
+ /* marqueeleft */
+  .marqueeleft{height:130px;width:100%;overflow:hidden;margin:0px auto;}
+  .marqueeleft ul{float:left;}
+  .marqueeleft li{float:left;margin:0 5px;display:inline;width:140px;height:120px;overflow:hidden;}
+  .marqueeleft li .pic{display:block;width:135px;height:85px;padding:2px;overflow:hidden;}
+  .marqueeleft li .pic img{border-radius: 5px;width:135px;height:85px;}
+ 
+  .marqueeleft li .txt{text-align:center;height:23px;line-height:23px;font-size: 14px;}
+  /* marqueetop */
+  .marqueetop{height:429px;width:148px;overflow:hidden;margin:40px auto;}
+  .marqueetop li{padding:5px 0;width:148px;height:120px;overflow:hidden;}
+  .marqueetop li .pic{display:block;border:#ccc 1px solid;width:135px;height:104px;padding:2px;overflow:hidden;}
+  .marqueetop li .txt{text-align:center;height:23px;line-height:23px;}
+  </style>

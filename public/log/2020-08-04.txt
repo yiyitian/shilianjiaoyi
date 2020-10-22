@@ -1,0 +1,4 @@
+2020-08-04 09:16:50|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='20',`user_id`=0,`manager`=198,`name`='济南金汇瀚玉城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 25
+2020-08-04 11:07:02|2,潘朋程,36,104,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 1972
+2020-08-04 11:07:22|2,潘朋程,36,104,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 1972
+2020-08-04 11:10:46|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=231,`name`='青岛恒大御澜国际',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 121

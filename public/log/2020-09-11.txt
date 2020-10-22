@@ -1,0 +1,1 @@
+2020-09-11 10:36:32|2,胡月,34,4,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `is_assessment` , `mark`) VALUES (0 , '20' , 1 , 142 , '淄博高青东郡1号' , 0 , 1 , '-1' , '1' , '-1' , '')

@@ -1,0 +1,1 @@
+2020-07-13 09:58:18|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=331,`name`='潍坊恒大滨河左岸',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 314

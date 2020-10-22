@@ -1,0 +1,8 @@
+2020-08-05 10:00:12|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=235,`name`='青岛鲁商蓝岸公馆',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 297
+2020-08-05 11:14:05|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=416,`name`='济南汇侨城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 140
+2020-08-05 11:24:20|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=417,`name`='潍坊峡山凤栖第',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 78
+2020-08-05 12:09:29|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=418,`name`='潍坊·高密锦远熙悦',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 350
+2020-08-05 12:10:53|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=419,`name`='潍坊金大地天泰城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 348
+2020-08-05 15:44:02|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='61',`user_id`=0,`manager`=97,`name`='华发四季',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 388
+2020-08-05 15:46:06|2,胡月,34,4,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='61',`user_id`=0,`manager`=354,`name`='凤集金茂悦',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 332
+2020-08-05 16:11:14|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='19',`user_id`=0,`manager`=420,`name`='济南万科翡翠公园',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 13

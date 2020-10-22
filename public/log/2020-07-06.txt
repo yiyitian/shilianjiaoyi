@@ -1,0 +1,4 @@
+2020-07-06 14:58:24|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '21' , 1 , 253 , '济南瑞丽城商业广场' , 0 , 2 , '-1' , '1' , '')
+2020-07-06 14:59:55|2,颜丹丹,34,276,数据收集（胡月）,|INSERT INTO `shilian_project` (`id` , `framework_id` , `user_id` , `manager` , `name` , `aims` , `type` , `is_agent` , `status` , `mark`) VALUES (0 , '20' , 1 , 118 , '淄博恒大养生谷' , 0 , 1 , '-1' , '1' , '')
+2020-07-06 15:48:48|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='20',`user_id`=0,`manager`=49,`name`='长清水发信息小镇',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 380
+2020-07-06 17:18:03|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=148,`name`='济南恒大滨河左岸',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 145

@@ -1,0 +1,7 @@
+2020-09-03 10:39:56|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='22',`user_id`=0,`manager`=187,`name`='潍坊恒信昊天城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 98
+2020-09-03 14:32:51|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2512
+2020-09-03 14:33:14|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2512
+2020-09-03 15:13:45|2,岳华龙,36,25,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2512
+2020-09-03 15:50:47|2,王潇11,36,272,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2434
+2020-09-03 15:53:12|2,王潇11,36,272,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2434
+2020-09-03 17:25:32|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=434,`name`='鲁商蓝岸新城',`aims`=0,`type`=1,`is_agent`='-1',`status`='1',`is_assessment`='1',`mark`=''  WHERE  `id` = 279

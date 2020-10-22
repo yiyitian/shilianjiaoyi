@@ -1,0 +1,2 @@
+2020-07-04 10:21:43|2,张洪旺,36,49,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 1980
+2020-07-04 14:59:41|2,颜丹丹,34,276,数据收集（胡月）,|UPDATE `shilian_project`  SET `framework_id`='24',`user_id`=0,`manager`=145,`name`='青岛鲁商蓝岸丽舍',`aims`=0,`type`=2,`is_agent`='-1',`status`='1',`mark`=''  WHERE  `id` = 134

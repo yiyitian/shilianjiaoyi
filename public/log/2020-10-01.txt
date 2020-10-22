@@ -1,0 +1,11 @@
+2020-10-01 10:04:44|2,石猛,36,110,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2754
+2020-10-01 10:34:47|2,李飞,36,396,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2765
+2020-10-01 10:47:08|2,石猛,36,110,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2754
+2020-10-01 14:23:58|2,李晖,36,430,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2711
+2020-10-01 14:24:10|2,李晖,36,430,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2711
+2020-10-01 14:31:30|2,李健,36,349,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2670
+2020-10-01 14:31:42|2,李健,36,349,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2670
+2020-10-01 16:50:30|2,李彦伟,36,146,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2684
+2020-10-01 16:50:38|2,李彦伟,36,146,项目经理,|UPDATE `shilian_aims`  SET `status`=1  WHERE  `id` = 2684
+2020-10-01 16:50:47|2,李彦伟,36,146,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2753
+2020-10-01 21:56:28|2,朱蓬勃,36,241,项目经理,|UPDATE `shilian_aims`  SET `status`=-1  WHERE  `id` = 2722
